@@ -1,11 +1,13 @@
 package com.bocang.task;
 
 import com.alibaba.cloudapi.sdk.model.ApiResponse;
+import com.alibaba.fastjson.JSONObject;
 import com.aliyun.iotx.api.client.IoTApiClientBuilderParams;
 import com.aliyun.iotx.api.client.IoTApiRequest;
 import com.aliyun.iotx.api.client.SyncApiClient;
 import com.google.common.collect.Maps;
 import org.junit.Test;
+import org.springframework.web.util.WebUtils;
 
 import java.io.UnsupportedEncodingException;
 import java.util.HashMap;
@@ -132,7 +134,6 @@ public class MyTest {
         request.putParam("productKey", "a19Sm2EkuhH");
         request.putParam("deviceName", "LTNTlXJRpJCHWWI17mmr");
 
-
         //请求参数域名、path、request
         //host地址  中国站：api.link.aliyun.com     新加坡：ap-southeast-1.api-iot.aliyuncs.com     美国（弗吉尼亚）：us-east-1.api-iot.aliyuncs.com     德国（法兰克福）：eu-central-1.api-iot.aliyuncs.com
         ApiResponse response = syncClient.postBody("api.link.aliyun.com", "/cloud/thing/properties/get", request, true);
@@ -202,7 +203,6 @@ public class MyTest {
     }
 
 
-
     /**
      * 获取设备的基本信息
      *
@@ -217,13 +217,88 @@ public class MyTest {
 
 //        request.putParam("iotId", "4Tfpf9ct9Tq4RarWtfz9000100");
         request.putParam("productKey", "a1wj0xvdMuX");
-        request.putParam("deviceName", "siluchangjingkaiguan_012");
+        request.putParam("deviceName", "44EFBF2E2E88");
 
         ApiResponse response = syncClient.postBody("api.link.aliyun.com", "/cloud/thing/info/get", request, true);
 
         System.out.println("response: " + new String(response.getBody(), "UTF-8"));
     }
 
+    /**
+     * 获取设备的基本信息
+     *
+     * @throws UnsupportedEncodingException
+     */
+    @Test
+    public void test10() throws UnsupportedEncodingException {
+        request.setApiVer("1.0.2");
+        // fd5ba3529b094099a27bd1cff4e6a575
+        // request.setCloudToken(cloudToken);
+//        request.setCloudToken("asb");
+
+//        request.putParam("iotId", "4Tfpf9ct9Tq4RarWtfz9000100");
+        request.putParam("productKey", "a19Sm2EkuhH");
+        request.putParam("deviceName", "ThreeSwitch_09");
+
+        ApiResponse response = syncClient.postBody("api.link.aliyun.com", "/cloud/thing/properties/get", request, true);
+
+        System.out.println("response: " + new String(response.getBody(), "UTF-8"));
+    }
+
+    /**
+     * 获取物的连接状态
+     *
+     * @throws UnsupportedEncodingException
+     */
+    @Test
+    public void test11() throws UnsupportedEncodingException {
+        request.setApiVer("1.0.2");
+        // fd5ba3529b094099a27bd1cff4e6a575
+        // request.setCloudToken(cloudToken);
+//        request.setCloudToken("asb");
+
+//        request.putParam("iotId", "4Tfpf9ct9Tq4RarWtfz9000100");
+        request.putParam("productKey", "a1wj0xvdMu");
+        request.putParam("deviceName", "gateway_00");
+
+        ApiResponse response = syncClient.postBody("api.link.aliyun.com", "/cloud/thing/status/get", request, true);
+        String body = new String(response.getBody(), "UTF-8");
+
+        if (response.getCode() == 6100) {
+            System.out.println(11111);
+        }
+
+        System.out.println("response: " + body);
+    }
+
+    /**
+     * 设置物的属性
+     *
+     * @throws UnsupportedEncodingException
+     */
+    @Test
+    public void test12() throws UnsupportedEncodingException {
+        request.setApiVer("1.0.2");
+        // fd5ba3529b094099a27bd1cff4e6a575
+        // request.setCloudToken(cloudToken);
+//        request.setCloudToken("asb");
+
+//        request.putParam("iotId", "4Tfpf9ct9Tq4RarWtfz9000100");
+        request.putParam("productKey", "a1wj0xvdMuX");
+        request.putParam("deviceName", "44EFBF2E35EE");
+        HashMap<String, Object> map = Maps.newHashMap();
+        map.put("NightlightSet", 1);
+        request.putParam("items", map);
+
+        ApiResponse response = syncClient.postBody("api.link.aliyun.com", "/cloud/thing/properties/set", request, true);
+        String body = new String(response.getBody(), "UTF-8");
+
+        if (response.getCode() == 6100) {
+            System.out.println(11111);
+        }
+
+        System.out.println("response: " + body);
+    }
 
     @Test
     public void test9() {
