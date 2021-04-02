@@ -7,9 +7,9 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication
+@EnableSwagger2
 @MapperScan("com.bocang.task.dao")
 @EnableScheduling
-@EnableSwagger2
 public class TaskApplication {
 
     public static void main(String[] args) {

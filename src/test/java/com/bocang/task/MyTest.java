@@ -1,16 +1,26 @@
 package com.bocang.task;
 
 import com.alibaba.cloudapi.sdk.model.ApiResponse;
+import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.aliyun.iotx.api.client.IoTApiClientBuilderParams;
 import com.aliyun.iotx.api.client.IoTApiRequest;
 import com.aliyun.iotx.api.client.SyncApiClient;
+import com.aliyuncs.CommonRequest;
+import com.aliyuncs.CommonResponse;
+import com.aliyuncs.DefaultAcsClient;
+import com.aliyuncs.exceptions.ClientException;
+import com.aliyuncs.http.MethodType;
+import com.aliyuncs.iot.model.v20180120.DeleteDeviceRequest;
+import com.aliyuncs.profile.DefaultProfile;
+import com.aliyuncs.profile.IClientProfile;
 import com.google.common.collect.Maps;
 import org.junit.Test;
 import org.springframework.web.util.WebUtils;
 
 import java.io.UnsupportedEncodingException;
 import java.util.HashMap;
+import java.util.Map;
 import java.util.Random;
 
 /**
@@ -131,8 +141,8 @@ public class MyTest {
         request.setCloudToken(cloudToken);
 
         // request.putParam("iotId", "LTNTlXJRpJCHWWI17mmr");
-        request.putParam("productKey", "a19Sm2EkuhH");
-        request.putParam("deviceName", "LTNTlXJRpJCHWWI17mmr");
+        request.putParam("productKey", "a1wj0xvdMuX");
+        request.putParam("deviceName", "44EFBF2E3140");
 
         //请求参数域名、path、request
         //host地址  中国站：api.link.aliyun.com     新加坡：ap-southeast-1.api-iot.aliyuncs.com     美国（弗吉尼亚）：us-east-1.api-iot.aliyuncs.com     德国（法兰克福）：eu-central-1.api-iot.aliyuncs.com
@@ -152,8 +162,8 @@ public class MyTest {
 //        request.setCloudToken(cloudToken);
 
         //request.putParam("iotId", "LTNTlXJRpJCHWWI17mmr");
-        request.putParam("productKey", "a19Sm2EkuhH");
-        request.putParam("deviceName", "LTNTlXJRpJCHWWI17mmr");
+        request.putParam("productKey", "a1wj0xvdMuX");
+        request.putParam("deviceName", "44EFBF2E3140");
 
         //请求参数域名、path、request
         //host地址  中国站：api.link.aliyun.com     新加坡：ap-southeast-1.api-iot.aliyuncs.com     美国（弗吉尼亚）：us-east-1.api-iot.aliyuncs.com     德国（法兰克福）：eu-central-1.api-iot.aliyuncs.com
@@ -172,8 +182,8 @@ public class MyTest {
         request.setApiVer("1.0.2");
         request.setCloudToken(cloudToken);
 
-        request.putParam("productKey", "a19Sm2EkuhH");
-        request.putParam("deviceName", "LTNTlXJRpJCHWWI17mmr");
+        request.putParam("productKey", "a1MpYWgTffk");
+        request.putParam("deviceName", "Two_Switch_07");
         request.putParam("identifier", "PowerSwitch_1");
         HashMap<String, Object> map = Maps.newHashMap();
         map.put("PowerSwitch_1", false);
@@ -225,20 +235,16 @@ public class MyTest {
     }
 
     /**
-     * 获取设备的基本信息
+     * 获取设备的属性
      *
      * @throws UnsupportedEncodingException
      */
     @Test
     public void test10() throws UnsupportedEncodingException {
         request.setApiVer("1.0.2");
-        // fd5ba3529b094099a27bd1cff4e6a575
-        // request.setCloudToken(cloudToken);
-//        request.setCloudToken("asb");
 
-//        request.putParam("iotId", "4Tfpf9ct9Tq4RarWtfz9000100");
-        request.putParam("productKey", "a19Sm2EkuhH");
-        request.putParam("deviceName", "ThreeSwitch_09");
+        request.putParam("productKey", "a1wj0xvdMuX");
+        request.putParam("deviceName", "44EFBF2E2E88");
 
         ApiResponse response = syncClient.postBody("api.link.aliyun.com", "/cloud/thing/properties/get", request, true);
 
@@ -284,10 +290,12 @@ public class MyTest {
 //        request.setCloudToken("asb");
 
 //        request.putParam("iotId", "4Tfpf9ct9Tq4RarWtfz9000100");
-        request.putParam("productKey", "a1wj0xvdMuX");
-        request.putParam("deviceName", "44EFBF2E35EE");
+        request.putParam("productKey", "a1MpYWgTffk");
+        request.putParam("deviceName", "Two_Switch_07");
+//        request.putParam("productKey", "a1wj0xvdMuX");
+//        request.putParam("deviceName", "44EFBF2E2E88");
         HashMap<String, Object> map = Maps.newHashMap();
-        map.put("NightlightSet", 1);
+        map.put("PowerSwitch_1", 1);
         request.putParam("items", map);
 
         ApiResponse response = syncClient.postBody("api.link.aliyun.com", "/cloud/thing/properties/set", request, true);
@@ -301,11 +309,28 @@ public class MyTest {
     }
 
     @Test
-    public void test9() {
-        String topic = "/juhao/a1nHAsu1H5R/pSdXUsm98VLGnshYozD8/thing/sub/register";
+    public void test13() throws UnsupportedEncodingException {
+        request.setApiVer("1.0.2");
+//        request.putParam("productKey", "a1MpYWgTffk");
+//        request.putParam("deviceName", "Two_Switch_07");
+        request.putParam("iotId", "4Tfpf9ct9Tq4RarWtfz9000100");
+        request.putParam("time", 60);
 
-        String[] split = topic.split("/");
-        System.out.println(split[4] + "+" + split[5]);
+        ApiResponse response = syncClient.postBody("api.link.aliyun.com", "/cloud/thing/gateway/permit", request, true);
+        String body = new String(response.getBody(), "UTF-8");
+
+        System.out.println("response: " + body);
+    }
+
+    @Test
+    public void test9() {
+        String topic = "/111/222/thing/topo/lifecycle";
+
+        if (topic.contains("/thing/topo/lifecycle")) {
+            System.out.println(111111);
+        } else {
+            System.out.println(2222222);
+        }
     }
 
     @Test
@@ -326,7 +351,53 @@ public class MyTest {
     }
 
     public static void main(String[] args) {
-        System.out.println("HHGGetBUDZuU1bDSQuGB000100".length());
+
+        try {
+            System.out.println("trying1");
+            int s1 = 1 / 0;
+            System.out.println("trying2");
+        } catch (Exception e) {
+            e.printStackTrace();
+//            System.out.println("e");
+        } finally {
+            System.out.println("finally");
+        }
+    }
+
+    private String domain = "iot.cn-shanghai.aliyuncs.com"; //host: http://popunify-share.cn-shanghai.aliyuncs.com
+    private String version = "2018-01-20";
+
+    @Test
+    public void test14() throws ClientException {
+        String accessKey = "LTAI5tCHkGS6tY1At2aZocrR";
+        String accessSecret = "zugbuZk2hkE9iX7rmbKjKdWEN8e35c";
+        IClientProfile profile = DefaultProfile.getProfile("cn-shanghai", accessKey, accessSecret);
+        DefaultAcsClient client = new DefaultAcsClient(profile); //初始化SDK客户端。
+
+        CommonRequest request = new CommonRequest();
+        request.setSysDomain(domain);
+        request.setSysVersion(version);
+        request.setSysAction("QueryDeviceDetail");
+        request.putQueryParameter("ProductKey", "a1srueEQffB");
+        request.putQueryParameter("DeviceName", "1VSYjHNTgzfGW1nLBAkm");
+        CommonResponse response = client.getCommonResponse(request);
+        System.out.println(response.getData());
+    }
+
+    @Test
+    public void test15() throws ClientException {
+        String accessKey = "LTAI5tCHkGS6tY1At2aZocrR";
+        String accessSecret = "zugbuZk2hkE9iX7rmbKjKdWEN8e35c";
+        IClientProfile profile = DefaultProfile.getProfile("cn-shanghai", accessKey, accessSecret);
+        DefaultAcsClient client = new DefaultAcsClient(profile); //初始化SDK客户端。
+
+        CommonRequest request = new CommonRequest();
+        request.setSysDomain(domain);
+        request.setSysVersion(version);
+        request.setSysAction("QueryProduct");
+        request.putQueryParameter("ProductKey", "a1wj0xvdMuX");
+        CommonResponse response = client.getCommonResponse(request);
+        System.out.println(response.getData());
     }
 
 

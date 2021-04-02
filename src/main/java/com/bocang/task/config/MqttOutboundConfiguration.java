@@ -33,7 +33,7 @@ import java.util.Set;
  * @Description 消息发送配置类
  * @Date 2020/9/7 14:59
  */
-@Configuration
+//@Configuration
 @Slf4j
 public class MqttOutboundConfiguration {
 
