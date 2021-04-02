@@ -1,0 +1,367 @@
+[2020-09-22 15:59:34] INFO  org.springframework.boot.StartupInfoLogger 55 logStarting - Starting TaskApplication on bocang with PID 87905 (/home/bocang/IdeaProjects/task/target/classes started by bocang in /home/bocang/IdeaProjects/task)
+[2020-09-22 15:59:34] INFO  org.springframework.boot.SpringApplication 655 logStartupProfileInfo - The following profiles are active: dev
+[2020-09-22 15:59:34] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-09-22 15:59:34] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-09-22 15:59:34] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 249 multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2020-09-22 15:59:34] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 127 registerRepositoriesIn - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2020-09-22 15:59:34] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 187 registerRepositoriesIn - Finished Spring Data repository scanning in 11ms. Found 0 Redis repository interfaces.
+[2020-09-22 15:59:34] INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor 213 registerErrorChannel - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+[2020-09-22 15:59:34] INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor 300 registerTaskScheduler - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+[2020-09-22 15:59:34] INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor 460 registerHeaderChannelRegistry - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+[2020-09-22 15:59:34] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 postProcessAfterInitialization - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-09-22 15:59:34] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 postProcessAfterInitialization - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-09-22 15:59:34] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 postProcessAfterInitialization - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-09-22 15:59:35] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 initialize - Tomcat initialized with port(s): 8082 (http)
+[2020-09-22 15:59:35] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting service [Tomcat]
+[2020-09-22 15:59:35] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting Servlet engine: [Apache Tomcat/9.0.38]
+[2020-09-22 15:59:35] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring embedded WebApplicationContext
+[2020-09-22 15:59:35] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 285 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1002 ms
+[2020-09-22 15:59:35] INFO  org.quartz.impl.StdSchedulerFactory 1184 instantiate - Using default implementation for ThreadExecutor
+[2020-09-22 15:59:35] INFO  org.quartz.simpl.SimpleThreadPool 268 initialize - Job execution threads will use class loader of thread: restartedMain
+[2020-09-22 15:59:35] INFO  org.quartz.core.SchedulerSignalerImpl 61 <init> - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2020-09-22 15:59:35] INFO  org.quartz.core.QuartzScheduler 240 <init> - Quartz Scheduler v.2.2.1 created.
+[2020-09-22 15:59:35] INFO  org.quartz.core.QuartzScheduler 694 shutdown - Scheduler project1QuartzScheduler_$_NON_CLUSTERED shutting down.
+[2020-09-22 15:59:35] INFO  org.quartz.core.QuartzScheduler 613 standby - Scheduler project1QuartzScheduler_$_NON_CLUSTERED paused.
+[2020-09-22 15:59:35] INFO  org.quartz.core.QuartzScheduler 771 shutdown - Scheduler project1QuartzScheduler_$_NON_CLUSTERED shutdown complete.
+[2020-09-22 15:59:35] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Stopping service [Tomcat]
+[2020-09-22 15:59:35] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 136 logMessage - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2020-09-22 16:04:39] INFO  org.springframework.boot.StartupInfoLogger 55 logStarting - Starting TaskApplication on bocang with PID 88817 (/home/bocang/IdeaProjects/task/target/classes started by bocang in /home/bocang/IdeaProjects/task)
+[2020-09-22 16:04:39] INFO  org.springframework.boot.SpringApplication 655 logStartupProfileInfo - The following profiles are active: dev
+[2020-09-22 16:04:39] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-09-22 16:04:39] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-09-22 16:04:40] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 249 multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2020-09-22 16:04:40] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 127 registerRepositoriesIn - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2020-09-22 16:04:40] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 187 registerRepositoriesIn - Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+[2020-09-22 16:04:40] INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor 213 registerErrorChannel - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+[2020-09-22 16:04:40] INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor 300 registerTaskScheduler - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+[2020-09-22 16:04:40] INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor 460 registerHeaderChannelRegistry - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+[2020-09-22 16:04:40] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 postProcessAfterInitialization - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-09-22 16:04:40] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 postProcessAfterInitialization - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-09-22 16:04:40] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 postProcessAfterInitialization - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-09-22 16:04:40] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 initialize - Tomcat initialized with port(s): 8082 (http)
+[2020-09-22 16:04:40] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting service [Tomcat]
+[2020-09-22 16:04:40] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting Servlet engine: [Apache Tomcat/9.0.38]
+[2020-09-22 16:04:40] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring embedded WebApplicationContext
+[2020-09-22 16:04:40] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 285 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 945 ms
+[2020-09-22 16:04:40] INFO  com.mchange.v2.log.jdk14logging.Jdk14MLog$Jdk14MLogger 124 log - MLog clients using java 1.4+ standard logging.
+[2020-09-22 16:04:40] INFO  com.mchange.v2.log.jdk14logging.Jdk14MLog$Jdk14MLogger 318 info - Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+[2020-09-22 16:04:40] INFO  org.quartz.impl.StdSchedulerFactory 1184 instantiate - Using default implementation for ThreadExecutor
+[2020-09-22 16:04:40] INFO  org.quartz.simpl.SimpleThreadPool 268 initialize - Job execution threads will use class loader of thread: restartedMain
+[2020-09-22 16:04:40] INFO  org.quartz.core.SchedulerSignalerImpl 61 <init> - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2020-09-22 16:04:40] INFO  org.quartz.core.QuartzScheduler 240 <init> - Quartz Scheduler v.2.2.1 created.
+[2020-09-22 16:04:40] INFO  org.quartz.impl.jdbcjobstore.JobStoreSupport 670 initialize - Using thread monitor-based data access locking (synchronization).
+[2020-09-22 16:04:40] INFO  org.quartz.impl.jdbcjobstore.JobStoreTX 59 initialize - JobStoreTX initialized.
+[2020-09-22 16:04:40] INFO  org.quartz.core.QuartzScheduler 305 initialize - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'project1QuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.impl.jdbcjobstore.JobStoreTX' - which supports persistence. and is not clustered.
+
+[2020-09-22 16:04:40] INFO  org.quartz.impl.StdSchedulerFactory 1339 instantiate - Quartz scheduler 'project1QuartzScheduler' initialized from an externally provided properties instance.
+[2020-09-22 16:04:40] INFO  org.quartz.impl.StdSchedulerFactory 1343 instantiate - Quartz scheduler version: 2.2.1
+[2020-09-22 16:04:40] INFO  org.quartz.core.QuartzScheduler 2311 setJobFactory - JobFactory set to: com.bocang.task.config.QuartzConfig$1@1ef8e0d7
+[2020-09-22 16:04:40] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure 56 dataSource - Init DruidDataSource
+[2020-09-22 16:04:41] INFO  com.alibaba.druid.pool.DruidDataSource 930 init - {dataSource-1} inited
+[2020-09-22 16:04:41] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 181 initialize - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-09-22 16:04:42] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer 58 startServer - LiveReload server is running on port 35729
+[2020-09-22 16:04:42] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 181 initialize - Initializing ExecutorService 'taskScheduler'
+[2020-09-22 16:04:42] INFO  org.springframework.integration.endpoint.EventDrivenConsumer 107 logComponentSubscriptionEvent - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+[2020-09-22 16:04:42] INFO  org.springframework.integration.channel.AbstractSubscribableChannel 64 adjustCounterIfNecessary - Channel 'application.errorChannel' has 1 subscriber(s).
+[2020-09-22 16:04:42] INFO  org.springframework.integration.endpoint.AbstractEndpoint 159 start - started bean '_org.springframework.integration.errorLogger'
+[2020-09-22 16:04:42] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 220 start - Tomcat started on port(s): 8082 (http) with context path ''
+[2020-09-22 16:04:42] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean 732 startScheduler - Will start Quartz Scheduler [project1QuartzScheduler] in 1 seconds
+[2020-09-22 16:04:42] INFO  org.springframework.boot.StartupInfoLogger 61 logStarted - Started TaskApplication in 2.741 seconds (JVM running for 3.311)
+[2020-09-22 16:04:42] INFO  com.mchange.v2.log.jdk14logging.Jdk14MLog$Jdk14MLogger 318 info - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> z8kfsxac1e6e5in1gr8jag|36cba701, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> z8kfsxac1e6e5in1gr8jag|36cba701, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost/bocang?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8&useSSL=false&allowPublicKeyRetrieval=true, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 0, maxStatementsPerConnection -> 120, minPoolSize -> 1, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+[2020-09-22 16:04:43] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean$1 748 run - Starting Quartz Scheduler now, after delay of 1 seconds
+[2020-09-22 16:05:11] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 136 logMessage - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2020-09-22 16:05:11] INFO  org.springframework.integration.endpoint.EventDrivenConsumer 107 logComponentSubscriptionEvent - Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+[2020-09-22 16:05:11] INFO  org.springframework.integration.channel.AbstractSubscribableChannel 64 adjustCounterIfNecessary - Channel 'application.errorChannel' has 0 subscriber(s).
+[2020-09-22 16:05:11] INFO  org.springframework.integration.endpoint.AbstractEndpoint 193 stop - stopped bean '_org.springframework.integration.errorLogger'
+[2020-09-22 16:05:11] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 218 shutdown - Shutting down ExecutorService 'taskScheduler'
+[2020-09-22 16:05:11] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 218 shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-09-22 16:05:11] INFO  org.quartz.core.QuartzScheduler 694 shutdown - Scheduler project1QuartzScheduler_$_NON_CLUSTERED shutting down.
+[2020-09-22 16:05:11] INFO  org.quartz.core.QuartzScheduler 613 standby - Scheduler project1QuartzScheduler_$_NON_CLUSTERED paused.
+[2020-09-22 16:05:11] INFO  org.quartz.core.QuartzScheduler 771 shutdown - Scheduler project1QuartzScheduler_$_NON_CLUSTERED shutdown complete.
+[2020-09-22 16:05:11] INFO  com.alibaba.druid.pool.DruidDataSource 1825 close - {dataSource-1} closed
+[2020-09-22 16:05:11] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean 845 destroy - Shutting down Quartz Scheduler
+[2020-09-22 16:05:20] INFO  org.springframework.boot.StartupInfoLogger 55 logStarting - Starting TaskApplication on bocang with PID 89251 (/home/bocang/IdeaProjects/task/target/classes started by bocang in /home/bocang/IdeaProjects/task)
+[2020-09-22 16:05:20] INFO  org.springframework.boot.SpringApplication 655 logStartupProfileInfo - The following profiles are active: dev
+[2020-09-22 16:05:20] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-09-22 16:05:20] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-09-22 16:05:21] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 249 multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2020-09-22 16:05:21] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 127 registerRepositoriesIn - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2020-09-22 16:05:21] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 187 registerRepositoriesIn - Finished Spring Data repository scanning in 5ms. Found 0 Redis repository interfaces.
+[2020-09-22 16:05:21] INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor 213 registerErrorChannel - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+[2020-09-22 16:05:21] INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor 300 registerTaskScheduler - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+[2020-09-22 16:05:21] INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor 460 registerHeaderChannelRegistry - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+[2020-09-22 16:05:21] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 postProcessAfterInitialization - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-09-22 16:05:21] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 postProcessAfterInitialization - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-09-22 16:05:21] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 postProcessAfterInitialization - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-09-22 16:05:21] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 initialize - Tomcat initialized with port(s): 8082 (http)
+[2020-09-22 16:05:21] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting service [Tomcat]
+[2020-09-22 16:05:21] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting Servlet engine: [Apache Tomcat/9.0.38]
+[2020-09-22 16:05:21] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring embedded WebApplicationContext
+[2020-09-22 16:05:21] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 285 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1007 ms
+[2020-09-22 16:05:22] INFO  com.mchange.v2.log.jdk14logging.Jdk14MLog$Jdk14MLogger 124 log - MLog clients using java 1.4+ standard logging.
+[2020-09-22 16:05:22] INFO  com.mchange.v2.log.jdk14logging.Jdk14MLog$Jdk14MLogger 318 info - Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+[2020-09-22 16:05:22] INFO  org.quartz.impl.StdSchedulerFactory 1184 instantiate - Using default implementation for ThreadExecutor
+[2020-09-22 16:05:22] INFO  org.quartz.simpl.SimpleThreadPool 268 initialize - Job execution threads will use class loader of thread: restartedMain
+[2020-09-22 16:05:22] INFO  org.quartz.core.SchedulerSignalerImpl 61 <init> - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2020-09-22 16:05:22] INFO  org.quartz.core.QuartzScheduler 240 <init> - Quartz Scheduler v.2.2.1 created.
+[2020-09-22 16:05:22] INFO  org.quartz.impl.jdbcjobstore.JobStoreSupport 670 initialize - Using thread monitor-based data access locking (synchronization).
+[2020-09-22 16:05:22] INFO  org.quartz.impl.jdbcjobstore.JobStoreTX 59 initialize - JobStoreTX initialized.
+[2020-09-22 16:05:22] INFO  org.quartz.core.QuartzScheduler 305 initialize - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'project1QuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.impl.jdbcjobstore.JobStoreTX' - which supports persistence. and is not clustered.
+
+[2020-09-22 16:05:22] INFO  org.quartz.impl.StdSchedulerFactory 1339 instantiate - Quartz scheduler 'project1QuartzScheduler' initialized from an externally provided properties instance.
+[2020-09-22 16:05:22] INFO  org.quartz.impl.StdSchedulerFactory 1343 instantiate - Quartz scheduler version: 2.2.1
+[2020-09-22 16:05:22] INFO  org.quartz.core.QuartzScheduler 2311 setJobFactory - JobFactory set to: com.bocang.task.config.QuartzConfig$1@37ad36b
+[2020-09-22 16:05:22] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure 56 dataSource - Init DruidDataSource
+[2020-09-22 16:05:22] INFO  com.alibaba.druid.pool.DruidDataSource 930 init - {dataSource-1} inited
+[2020-09-22 16:05:22] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 181 initialize - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-09-22 16:05:23] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer 58 startServer - LiveReload server is running on port 35729
+[2020-09-22 16:05:23] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 181 initialize - Initializing ExecutorService 'taskScheduler'
+[2020-09-22 16:05:23] INFO  org.springframework.integration.endpoint.EventDrivenConsumer 107 logComponentSubscriptionEvent - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+[2020-09-22 16:05:23] INFO  org.springframework.integration.channel.AbstractSubscribableChannel 64 adjustCounterIfNecessary - Channel 'application.errorChannel' has 1 subscriber(s).
+[2020-09-22 16:05:23] INFO  org.springframework.integration.endpoint.AbstractEndpoint 159 start - started bean '_org.springframework.integration.errorLogger'
+[2020-09-22 16:05:23] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 220 start - Tomcat started on port(s): 8082 (http) with context path ''
+[2020-09-22 16:05:23] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean 732 startScheduler - Will start Quartz Scheduler [project1QuartzScheduler] in 1 seconds
+[2020-09-22 16:05:23] INFO  org.springframework.boot.StartupInfoLogger 61 logStarted - Started TaskApplication in 2.947 seconds (JVM running for 3.564)
+[2020-09-22 16:05:23] INFO  com.mchange.v2.log.jdk14logging.Jdk14MLog$Jdk14MLogger 318 info - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> z8kfsxac1e6f1cn1rt4mi4|8c0de15, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> z8kfsxac1e6f1cn1rt4mi4|8c0de15, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost/bocang?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8&useSSL=false&allowPublicKeyRetrieval=true, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 0, maxStatementsPerConnection -> 120, minPoolSize -> 1, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+[2020-09-22 16:05:24] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean$1 748 run - Starting Quartz Scheduler now, after delay of 1 seconds
+[2020-09-22 16:05:52] INFO  org.springframework.integration.endpoint.EventDrivenConsumer 107 logComponentSubscriptionEvent - Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+[2020-09-22 16:05:52] INFO  org.springframework.integration.channel.AbstractSubscribableChannel 64 adjustCounterIfNecessary - Channel 'application.errorChannel' has 0 subscriber(s).
+[2020-09-22 16:05:52] INFO  org.springframework.integration.endpoint.AbstractEndpoint 193 stop - stopped bean '_org.springframework.integration.errorLogger'
+[2020-09-22 16:05:52] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 218 shutdown - Shutting down ExecutorService 'taskScheduler'
+[2020-09-22 16:05:52] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 218 shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-09-22 16:05:52] INFO  org.quartz.core.QuartzScheduler 694 shutdown - Scheduler project1QuartzScheduler_$_NON_CLUSTERED shutting down.
+[2020-09-22 16:05:52] INFO  org.quartz.core.QuartzScheduler 613 standby - Scheduler project1QuartzScheduler_$_NON_CLUSTERED paused.
+[2020-09-22 16:05:52] INFO  org.quartz.core.QuartzScheduler 771 shutdown - Scheduler project1QuartzScheduler_$_NON_CLUSTERED shutdown complete.
+[2020-09-22 16:05:52] INFO  com.alibaba.druid.pool.DruidDataSource 1825 close - {dataSource-1} closed
+[2020-09-22 16:05:52] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean 845 destroy - Shutting down Quartz Scheduler
+[2020-09-22 16:07:22] INFO  org.springframework.boot.StartupInfoLogger 55 logStarting - Starting TaskApplication on bocang with PID 89895 (/home/bocang/IdeaProjects/task/target/classes started by bocang in /home/bocang/IdeaProjects/task)
+[2020-09-22 16:07:22] INFO  org.springframework.boot.SpringApplication 655 logStartupProfileInfo - The following profiles are active: dev
+[2020-09-22 16:07:22] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-09-22 16:07:22] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-09-22 16:07:23] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 249 multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2020-09-22 16:07:23] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 127 registerRepositoriesIn - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2020-09-22 16:07:23] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 187 registerRepositoriesIn - Finished Spring Data repository scanning in 5ms. Found 0 Redis repository interfaces.
+[2020-09-22 16:07:23] INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor 213 registerErrorChannel - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+[2020-09-22 16:07:23] INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor 300 registerTaskScheduler - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+[2020-09-22 16:07:23] INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor 460 registerHeaderChannelRegistry - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+[2020-09-22 16:07:23] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 postProcessAfterInitialization - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-09-22 16:07:23] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 postProcessAfterInitialization - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-09-22 16:07:23] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 postProcessAfterInitialization - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-09-22 16:07:23] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 initialize - Tomcat initialized with port(s): 8082 (http)
+[2020-09-22 16:07:23] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting service [Tomcat]
+[2020-09-22 16:07:23] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting Servlet engine: [Apache Tomcat/9.0.38]
+[2020-09-22 16:07:23] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring embedded WebApplicationContext
+[2020-09-22 16:07:23] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 285 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 982 ms
+[2020-09-22 16:07:23] INFO  com.mchange.v2.log.jdk14logging.Jdk14MLog$Jdk14MLogger 124 log - MLog clients using java 1.4+ standard logging.
+[2020-09-22 16:07:23] INFO  com.mchange.v2.log.jdk14logging.Jdk14MLog$Jdk14MLogger 318 info - Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+[2020-09-22 16:07:23] INFO  org.quartz.impl.StdSchedulerFactory 1184 instantiate - Using default implementation for ThreadExecutor
+[2020-09-22 16:07:23] INFO  org.quartz.simpl.SimpleThreadPool 268 initialize - Job execution threads will use class loader of thread: restartedMain
+[2020-09-22 16:07:23] INFO  org.quartz.core.SchedulerSignalerImpl 61 <init> - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2020-09-22 16:07:23] INFO  org.quartz.core.QuartzScheduler 240 <init> - Quartz Scheduler v.2.2.1 created.
+[2020-09-22 16:07:23] INFO  org.quartz.impl.jdbcjobstore.JobStoreSupport 670 initialize - Using thread monitor-based data access locking (synchronization).
+[2020-09-22 16:07:23] INFO  org.quartz.impl.jdbcjobstore.JobStoreTX 59 initialize - JobStoreTX initialized.
+[2020-09-22 16:07:23] INFO  org.quartz.core.QuartzScheduler 305 initialize - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'project1QuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.impl.jdbcjobstore.JobStoreTX' - which supports persistence. and is not clustered.
+
+[2020-09-22 16:07:23] INFO  org.quartz.impl.StdSchedulerFactory 1339 instantiate - Quartz scheduler 'project1QuartzScheduler' initialized from an externally provided properties instance.
+[2020-09-22 16:07:23] INFO  org.quartz.impl.StdSchedulerFactory 1343 instantiate - Quartz scheduler version: 2.2.1
+[2020-09-22 16:07:23] INFO  org.quartz.core.QuartzScheduler 2311 setJobFactory - JobFactory set to: com.bocang.task.config.QuartzConfig$1@54fcfbb9
+[2020-09-22 16:07:23] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure 56 dataSource - Init DruidDataSource
+[2020-09-22 16:07:24] INFO  com.alibaba.druid.pool.DruidDataSource 930 init - {dataSource-1} inited
+[2020-09-22 16:07:24] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 181 initialize - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-09-22 16:07:25] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer 58 startServer - LiveReload server is running on port 35729
+[2020-09-22 16:07:25] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 181 initialize - Initializing ExecutorService 'taskScheduler'
+[2020-09-22 16:07:25] INFO  org.springframework.integration.endpoint.EventDrivenConsumer 107 logComponentSubscriptionEvent - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+[2020-09-22 16:07:25] INFO  org.springframework.integration.channel.AbstractSubscribableChannel 64 adjustCounterIfNecessary - Channel 'application.errorChannel' has 1 subscriber(s).
+[2020-09-22 16:07:25] INFO  org.springframework.integration.endpoint.AbstractEndpoint 159 start - started bean '_org.springframework.integration.errorLogger'
+[2020-09-22 16:07:25] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 220 start - Tomcat started on port(s): 8082 (http) with context path ''
+[2020-09-22 16:07:25] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean 732 startScheduler - Will start Quartz Scheduler [project1QuartzScheduler] in 1 seconds
+[2020-09-22 16:07:25] INFO  org.springframework.boot.StartupInfoLogger 61 logStarted - Started TaskApplication in 2.878 seconds (JVM running for 3.488)
+[2020-09-22 16:07:25] INFO  com.mchange.v2.log.jdk14logging.Jdk14MLog$Jdk14MLogger 318 info - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> z8kfsxac1e6hn7b19qv41b|37fb1ffc, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> z8kfsxac1e6hn7b19qv41b|37fb1ffc, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost/bocang?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8&useSSL=false&allowPublicKeyRetrieval=true, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 123456, maxStatements -> 0, maxStatementsPerConnection -> 120, minPoolSize -> 1, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+[2020-09-22 16:07:26] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean$1 748 run - Starting Quartz Scheduler now, after delay of 1 seconds
+[2020-09-22 16:07:54] INFO  org.springframework.integration.endpoint.EventDrivenConsumer 107 logComponentSubscriptionEvent - Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+[2020-09-22 16:07:54] INFO  org.springframework.integration.channel.AbstractSubscribableChannel 64 adjustCounterIfNecessary - Channel 'application.errorChannel' has 0 subscriber(s).
+[2020-09-22 16:07:54] INFO  org.springframework.integration.endpoint.AbstractEndpoint 193 stop - stopped bean '_org.springframework.integration.errorLogger'
+[2020-09-22 16:07:54] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 218 shutdown - Shutting down ExecutorService 'taskScheduler'
+[2020-09-22 16:07:54] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 218 shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-09-22 16:07:54] INFO  org.quartz.core.QuartzScheduler 694 shutdown - Scheduler project1QuartzScheduler_$_NON_CLUSTERED shutting down.
+[2020-09-22 16:07:54] INFO  org.quartz.core.QuartzScheduler 613 standby - Scheduler project1QuartzScheduler_$_NON_CLUSTERED paused.
+[2020-09-22 16:07:54] INFO  org.quartz.core.QuartzScheduler 771 shutdown - Scheduler project1QuartzScheduler_$_NON_CLUSTERED shutdown complete.
+[2020-09-22 16:07:54] INFO  com.alibaba.druid.pool.DruidDataSource 1825 close - {dataSource-1} closed
+[2020-09-22 16:07:54] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean 845 destroy - Shutting down Quartz Scheduler
+[2020-09-22 16:10:08] INFO  org.springframework.boot.StartupInfoLogger 55 logStarting - Starting TaskApplication on bocang with PID 91231 (/home/bocang/IdeaProjects/task/target/classes started by bocang in /home/bocang/IdeaProjects/task)
+[2020-09-22 16:10:08] INFO  org.springframework.boot.SpringApplication 655 logStartupProfileInfo - The following profiles are active: dev
+[2020-09-22 16:10:08] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-09-22 16:10:08] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-09-22 16:10:08] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 249 multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2020-09-22 16:10:08] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 127 registerRepositoriesIn - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2020-09-22 16:10:08] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 187 registerRepositoriesIn - Finished Spring Data repository scanning in 5ms. Found 0 Redis repository interfaces.
+[2020-09-22 16:10:08] INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor 213 registerErrorChannel - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+[2020-09-22 16:10:08] INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor 300 registerTaskScheduler - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+[2020-09-22 16:10:08] INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor 460 registerHeaderChannelRegistry - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+[2020-09-22 16:10:09] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 postProcessAfterInitialization - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-09-22 16:10:09] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 postProcessAfterInitialization - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-09-22 16:10:09] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 postProcessAfterInitialization - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-09-22 16:10:09] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 initialize - Tomcat initialized with port(s): 8082 (http)
+[2020-09-22 16:10:09] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting service [Tomcat]
+[2020-09-22 16:10:09] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting Servlet engine: [Apache Tomcat/9.0.38]
+[2020-09-22 16:10:09] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring embedded WebApplicationContext
+[2020-09-22 16:10:09] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 285 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 965 ms
+[2020-09-22 16:10:09] INFO  com.mchange.v2.log.jdk14logging.Jdk14MLog$Jdk14MLogger 124 log - MLog clients using java 1.4+ standard logging.
+[2020-09-22 16:10:09] INFO  com.mchange.v2.log.jdk14logging.Jdk14MLog$Jdk14MLogger 318 info - Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+[2020-09-22 16:10:09] INFO  org.quartz.impl.StdSchedulerFactory 1184 instantiate - Using default implementation for ThreadExecutor
+[2020-09-22 16:10:09] INFO  org.quartz.simpl.SimpleThreadPool 268 initialize - Job execution threads will use class loader of thread: restartedMain
+[2020-09-22 16:10:09] INFO  org.quartz.core.SchedulerSignalerImpl 61 <init> - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2020-09-22 16:10:09] INFO  org.quartz.core.QuartzScheduler 240 <init> - Quartz Scheduler v.2.2.1 created.
+[2020-09-22 16:10:09] INFO  org.quartz.impl.jdbcjobstore.JobStoreSupport 670 initialize - Using thread monitor-based data access locking (synchronization).
+[2020-09-22 16:10:09] INFO  org.quartz.impl.jdbcjobstore.JobStoreTX 59 initialize - JobStoreTX initialized.
+[2020-09-22 16:10:09] INFO  org.quartz.core.QuartzScheduler 305 initialize - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'project1QuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.impl.jdbcjobstore.JobStoreTX' - which supports persistence. and is not clustered.
+
+[2020-09-22 16:10:09] INFO  org.quartz.impl.StdSchedulerFactory 1339 instantiate - Quartz scheduler 'project1QuartzScheduler' initialized from an externally provided properties instance.
+[2020-09-22 16:10:09] INFO  org.quartz.impl.StdSchedulerFactory 1343 instantiate - Quartz scheduler version: 2.2.1
+[2020-09-22 16:10:09] INFO  org.quartz.core.QuartzScheduler 2311 setJobFactory - JobFactory set to: com.bocang.task.config.QuartzConfig$1@200e5b4d
+[2020-09-22 16:10:09] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure 56 dataSource - Init DruidDataSource
+[2020-09-22 16:10:09] INFO  com.alibaba.druid.pool.DruidDataSource 930 init - {dataSource-1} inited
+[2020-09-22 16:10:10] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 181 initialize - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-09-22 16:10:11] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 181 initialize - Initializing ExecutorService 'taskScheduler'
+[2020-09-22 16:10:11] INFO  org.springframework.integration.endpoint.EventDrivenConsumer 107 logComponentSubscriptionEvent - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+[2020-09-22 16:10:11] INFO  org.springframework.integration.channel.AbstractSubscribableChannel 64 adjustCounterIfNecessary - Channel 'application.errorChannel' has 1 subscriber(s).
+[2020-09-22 16:10:11] INFO  org.springframework.integration.endpoint.AbstractEndpoint 159 start - started bean '_org.springframework.integration.errorLogger'
+[2020-09-22 16:10:11] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 218 shutdown - Shutting down ExecutorService 'taskScheduler'
+[2020-09-22 16:10:11] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 218 shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-09-22 16:10:11] INFO  org.quartz.core.QuartzScheduler 694 shutdown - Scheduler project1QuartzScheduler_$_NON_CLUSTERED shutting down.
+[2020-09-22 16:10:11] INFO  org.quartz.core.QuartzScheduler 613 standby - Scheduler project1QuartzScheduler_$_NON_CLUSTERED paused.
+[2020-09-22 16:10:11] INFO  org.quartz.core.QuartzScheduler 771 shutdown - Scheduler project1QuartzScheduler_$_NON_CLUSTERED shutdown complete.
+[2020-09-22 16:10:11] INFO  com.alibaba.druid.pool.DruidDataSource 1825 close - {dataSource-1} closed
+[2020-09-22 16:10:11] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean 845 destroy - Shutting down Quartz Scheduler
+[2020-09-22 16:10:11] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Stopping service [Tomcat]
+[2020-09-22 16:10:28] INFO  org.springframework.boot.StartupInfoLogger 55 logStarting - Starting TaskApplication on bocang with PID 91510 (/home/bocang/IdeaProjects/task/target/classes started by bocang in /home/bocang/IdeaProjects/task)
+[2020-09-22 16:10:28] INFO  org.springframework.boot.SpringApplication 655 logStartupProfileInfo - The following profiles are active: dev
+[2020-09-22 16:10:28] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-09-22 16:10:28] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-09-22 16:10:29] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 249 multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2020-09-22 16:10:29] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 127 registerRepositoriesIn - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2020-09-22 16:10:29] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 187 registerRepositoriesIn - Finished Spring Data repository scanning in 5ms. Found 0 Redis repository interfaces.
+[2020-09-22 16:10:29] INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor 213 registerErrorChannel - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+[2020-09-22 16:10:29] INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor 300 registerTaskScheduler - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+[2020-09-22 16:10:29] INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor 460 registerHeaderChannelRegistry - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+[2020-09-22 16:10:29] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 postProcessAfterInitialization - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-09-22 16:10:29] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 postProcessAfterInitialization - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-09-22 16:10:29] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 postProcessAfterInitialization - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-09-22 16:10:29] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 initialize - Tomcat initialized with port(s): 8082 (http)
+[2020-09-22 16:10:29] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting service [Tomcat]
+[2020-09-22 16:10:29] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting Servlet engine: [Apache Tomcat/9.0.38]
+[2020-09-22 16:10:29] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring embedded WebApplicationContext
+[2020-09-22 16:10:29] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 285 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 988 ms
+[2020-09-22 16:10:30] INFO  com.mchange.v2.log.jdk14logging.Jdk14MLog$Jdk14MLogger 124 log - MLog clients using java 1.4+ standard logging.
+[2020-09-22 16:10:30] INFO  com.mchange.v2.log.jdk14logging.Jdk14MLog$Jdk14MLogger 318 info - Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+[2020-09-22 16:10:30] INFO  org.quartz.impl.StdSchedulerFactory 1184 instantiate - Using default implementation for ThreadExecutor
+[2020-09-22 16:10:30] INFO  org.quartz.simpl.SimpleThreadPool 268 initialize - Job execution threads will use class loader of thread: restartedMain
+[2020-09-22 16:10:30] INFO  org.quartz.core.SchedulerSignalerImpl 61 <init> - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2020-09-22 16:10:30] INFO  org.quartz.core.QuartzScheduler 240 <init> - Quartz Scheduler v.2.2.1 created.
+[2020-09-22 16:10:30] INFO  org.quartz.impl.jdbcjobstore.JobStoreSupport 670 initialize - Using thread monitor-based data access locking (synchronization).
+[2020-09-22 16:10:30] INFO  org.quartz.impl.jdbcjobstore.JobStoreTX 59 initialize - JobStoreTX initialized.
+[2020-09-22 16:10:30] INFO  org.quartz.core.QuartzScheduler 305 initialize - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'project1QuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.impl.jdbcjobstore.JobStoreTX' - which supports persistence. and is not clustered.
+
+[2020-09-22 16:10:30] INFO  org.quartz.impl.StdSchedulerFactory 1339 instantiate - Quartz scheduler 'project1QuartzScheduler' initialized from an externally provided properties instance.
+[2020-09-22 16:10:30] INFO  org.quartz.impl.StdSchedulerFactory 1343 instantiate - Quartz scheduler version: 2.2.1
+[2020-09-22 16:10:30] INFO  org.quartz.core.QuartzScheduler 2311 setJobFactory - JobFactory set to: com.bocang.task.config.QuartzConfig$1@37ad36b
+[2020-09-22 16:10:30] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure 56 dataSource - Init DruidDataSource
+[2020-09-22 16:10:30] INFO  com.alibaba.druid.pool.DruidDataSource 930 init - {dataSource-1} inited
+[2020-09-22 16:10:30] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 181 initialize - Initializing ExecutorService 'applicationTaskExecutor'
+[2020-09-22 16:10:31] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer 58 startServer - LiveReload server is running on port 35729
+[2020-09-22 16:10:31] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 181 initialize - Initializing ExecutorService 'taskScheduler'
+[2020-09-22 16:10:31] INFO  org.springframework.integration.endpoint.EventDrivenConsumer 107 logComponentSubscriptionEvent - Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+[2020-09-22 16:10:31] INFO  org.springframework.integration.channel.AbstractSubscribableChannel 64 adjustCounterIfNecessary - Channel 'application.errorChannel' has 1 subscriber(s).
+[2020-09-22 16:10:31] INFO  org.springframework.integration.endpoint.AbstractEndpoint 159 start - started bean '_org.springframework.integration.errorLogger'
+[2020-09-22 16:10:31] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 220 start - Tomcat started on port(s): 8082 (http) with context path ''
+[2020-09-22 16:10:31] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean 732 startScheduler - Will start Quartz Scheduler [project1QuartzScheduler] in 1 seconds
+[2020-09-22 16:10:31] INFO  org.springframework.boot.StartupInfoLogger 61 logStarted - Started TaskApplication in 2.945 seconds (JVM running for 3.537)
+[2020-09-22 16:10:31] INFO  com.mchange.v2.log.jdk14logging.Jdk14MLog$Jdk14MLogger 318 info - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> z8kfsxac1e6lmuvv1hljz|8c0de15, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> z8kfsxac1e6lmuvv1hljz|8c0de15, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost/bocang?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8&useSSL=false&allowPublicKeyRetrieval=true, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 123456, maxStatements -> 0, maxStatementsPerConnection -> 120, minPoolSize -> 1, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+[2020-09-22 16:10:32] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean$1 748 run - Starting Quartz Scheduler now, after delay of 1 seconds
+[2020-09-22 16:10:55] INFO  org.springframework.integration.endpoint.EventDrivenConsumer 107 logComponentSubscriptionEvent - Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+[2020-09-22 16:10:55] INFO  org.springframework.integration.channel.AbstractSubscribableChannel 64 adjustCounterIfNecessary - Channel 'application.errorChannel' has 0 subscriber(s).
+[2020-09-22 16:10:55] INFO  org.springframework.integration.endpoint.AbstractEndpoint 193 stop - stopped bean '_org.springframework.integration.errorLogger'
+[2020-09-22 16:10:55] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 218 shutdown - Shutting down ExecutorService 'taskScheduler'
+[2020-09-22 16:10:55] INFO  org.springframework.scheduling.concurrent.ExecutorConfigurationSupport 218 shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-09-22 16:10:55] INFO  org.quartz.core.QuartzScheduler 694 shutdown - Scheduler project1QuartzScheduler_$_NON_CLUSTERED shutting down.
+[2020-09-22 16:10:55] INFO  org.quartz.core.QuartzScheduler 613 standby - Scheduler project1QuartzScheduler_$_NON_CLUSTERED paused.
+[2020-09-22 16:10:55] INFO  org.quartz.core.QuartzScheduler 771 shutdown - Scheduler project1QuartzScheduler_$_NON_CLUSTERED shutdown complete.
+[2020-09-22 16:10:55] INFO  com.alibaba.druid.pool.DruidDataSource 1825 close - {dataSource-1} closed
+[2020-09-22 16:10:55] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean 845 destroy - Shutting down Quartz Scheduler
+[2020-09-22 16:10:58] INFO  org.springframework.boot.StartupInfoLogger 55 logStarting - Starting TaskApplication on bocang with PID 91842 (/home/bocang/IdeaProjects/task/target/classes started by bocang in /home/bocang/IdeaProjects/task)
+[2020-09-22 16:10:58] INFO  org.springframework.boot.SpringApplication 655 logStartupProfileInfo - The following profiles are active: dev
+[2020-09-22 16:10:58] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-09-22 16:10:58] INFO  org.springframework.boot.logging.DeferredLog 225 logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-09-22 16:10:59] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 249 multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2020-09-22 16:10:59] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 127 registerRepositoriesIn - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2020-09-22 16:10:59] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate 187 registerRepositoriesIn - Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+[2020-09-22 16:10:59] INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor 213 registerErrorChannel - No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+[2020-09-22 16:10:59] INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor 300 registerTaskScheduler - No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+[2020-09-22 16:10:59] INFO  org.springframework.integration.config.DefaultConfiguringBeanFactoryPostProcessor 460 registerHeaderChannelRegistry - No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+[2020-09-22 16:10:59] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 postProcessAfterInitialization - Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-09-22 16:10:59] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 postProcessAfterInitialization - Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-09-22 16:10:59] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 postProcessAfterInitialization - Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2020-09-22 16:10:59] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer 108 initialize - Tomcat initialized with port(s): 8082 (http)
+[2020-09-22 16:10:59] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting service [Tomcat]
+[2020-09-22 16:10:59] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Starting Servlet engine: [Apache Tomcat/9.0.38]
+[2020-09-22 16:10:59] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Initializing Spring embedded WebApplicationContext
+[2020-09-22 16:10:59] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext 285 prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1006 ms
+[2020-09-22 16:10:59] INFO  com.mchange.v2.log.jdk14logging.Jdk14MLog$Jdk14MLogger 124 log - MLog clients using java 1.4+ standard logging.
+[2020-09-22 16:10:59] INFO  com.mchange.v2.log.jdk14logging.Jdk14MLog$Jdk14MLogger 318 info - Initializing c3p0-0.9.1.1 [built 15-March-2007 01:32:31; debug? true; trace: 10]
+[2020-09-22 16:10:59] INFO  org.quartz.impl.StdSchedulerFactory 1184 instantiate - Using default implementation for ThreadExecutor
+[2020-09-22 16:10:59] INFO  org.quartz.simpl.SimpleThreadPool 268 initialize - Job execution threads will use class loader of thread: restartedMain
+[2020-09-22 16:10:59] INFO  org.quartz.core.SchedulerSignalerImpl 61 <init> - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2020-09-22 16:10:59] INFO  org.quartz.core.QuartzScheduler 240 <init> - Quartz Scheduler v.2.2.1 created.
+[2020-09-22 16:10:59] INFO  org.quartz.impl.jdbcjobstore.JobStoreSupport 670 initialize - Using thread monitor-based data access locking (synchronization).
+[2020-09-22 16:10:59] INFO  org.quartz.impl.jdbcjobstore.JobStoreTX 59 initialize - JobStoreTX initialized.
+[2020-09-22 16:10:59] INFO  org.quartz.core.QuartzScheduler 305 initialize - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'project1QuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.impl.jdbcjobstore.JobStoreTX' - which supports persistence. and is not clustered.
+
+[2020-09-22 16:10:59] INFO  org.quartz.impl.StdSchedulerFactory 1339 instantiate - Quartz scheduler 'project1QuartzScheduler' initialized from an externally provided properties instance.
+[2020-09-22 16:10:59] INFO  org.quartz.impl.StdSchedulerFactory 1343 instantiate - Quartz scheduler version: 2.2.1
+[2020-09-22 16:10:59] INFO  org.quartz.core.QuartzScheduler 2311 setJobFactory - JobFactory set to: com.bocang.task.config.QuartzConfig$1@238a7a14
+[2020-09-22 16:10:59] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure 56 dataSource - Init DruidDataSource
+[2020-09-22 16:11:00] INFO  org.springframework.scheduling.quartz.SchedulerFactoryBean 845 destroy - Shutting down Quartz Scheduler
+[2020-09-22 16:11:00] INFO  org.quartz.core.QuartzScheduler 694 shutdown - Scheduler project1QuartzScheduler_$_NON_CLUSTERED shutting down.
+[2020-09-22 16:11:00] INFO  org.quartz.core.QuartzScheduler 613 standby - Scheduler project1QuartzScheduler_$_NON_CLUSTERED paused.
+[2020-09-22 16:11:00] INFO  org.quartz.core.QuartzScheduler 771 shutdown - Scheduler project1QuartzScheduler_$_NON_CLUSTERED shutdown complete.
+[2020-09-22 16:11:00] INFO  org.apache.juli.logging.DirectJDKLog 173 log - Stopping service [Tomcat]
