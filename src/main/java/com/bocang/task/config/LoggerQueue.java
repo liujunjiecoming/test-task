@@ -24,6 +24,7 @@ public class LoggerQueue {
      * @return
      */
     public boolean push(LoggerMessage log) {
+        System.out.println("1111" + log);
         return this.blockingQueue.add(log);// 队列满了就抛出异常，不阻塞
     }
 

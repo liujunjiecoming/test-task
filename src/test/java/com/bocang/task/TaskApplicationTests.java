@@ -36,13 +36,8 @@ class TaskApplicationTests {
 
     @Test
     void contextLoads() {
-        MatchOperation match = Aggregation.match(Criteria.where("productKey").is("a1DdjaHCK89"));
-        GroupOperation group = Aggregation.group("deviceName").count().as("dnCount");
-        Aggregation agg = Aggregation.newAggregation(match, group);
-        AggregationResults<Map> results = mongoTemplate.aggregate(agg, DeviceProperties.class, Map.class);
-        for (Map mappedResult : results.getMappedResults()) {
-            System.out.println(JSON.toJSON(mappedResult));
-        }
+        System.out.println(redisTemplate.opsForSet().isMember("bind:device", "a1ROSZJYEnb:7C25DA0C75E4"));
+//        redisTemplate.opsForSet().remove("bind:device", "a1ROSZJYEnb:7C25DA0C75E4");
     }
 
     // 1查询

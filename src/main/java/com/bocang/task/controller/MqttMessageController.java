@@ -32,7 +32,7 @@ public class MqttMessageController {
     @PostMapping(value = "/sendMqtt")
     @ApiOperation(value = "/sendMqtt", httpMethod = "POST", response = JsonVO.class, notes = "mqtt消息推送")
     public JsonVO sendMqtt(@RequestBody MqttPubVO pub) {
-        mqttGateway.sendToMqtt(pub.getData(), pub.getTopic());
+//        mqttGateway.sendToMqtt(pub.getData(), pub.getTopic());
         return JsonVO.success();
     }
 

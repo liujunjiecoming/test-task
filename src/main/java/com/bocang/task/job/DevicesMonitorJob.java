@@ -28,8 +28,8 @@ public class DevicesMonitorJob implements Job {
     @Override
     public void execute(JobExecutionContext jobExecutionContext) throws JobExecutionException {
         //todo 逻辑任务
-        List<BCDevicesDO> devicesList = bcDeviceService.list(Wrappers.<BCDevicesDO>lambdaQuery().eq(BCDevicesDO::getStatus, "1"));
-        log.info(devicesList);
+//        List<BCDevicesDO> devicesList = bcDeviceService.list(Wrappers.<BCDevicesDO>lambdaQuery().eq(BCDevicesDO::getStatus, "1"));
+//        log.info(devicesList);
 
         log.info("HelloWorld " + new Date());
     }

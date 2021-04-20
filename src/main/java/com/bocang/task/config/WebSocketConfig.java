@@ -48,6 +48,7 @@ public class WebSocketConfig extends AbstractWebSocketMessageBrokerConfigurer {
                 while (true) {
                     try {
                         String log = LoggerQueue.getInstance().poll().toString();
+                        System.out.println("log: " + log);
                         if (log != null) {
                             if (messagingTemplate != null)
                                 messagingTemplate.convertAndSend("/topic/pullFileLogger", log);

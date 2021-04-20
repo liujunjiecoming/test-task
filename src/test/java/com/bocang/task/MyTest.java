@@ -1,7 +1,6 @@
 package com.bocang.task;
 
 import com.alibaba.cloudapi.sdk.model.ApiResponse;
-import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.aliyun.iotx.api.client.IoTApiClientBuilderParams;
 import com.aliyun.iotx.api.client.IoTApiRequest;
@@ -10,13 +9,12 @@ import com.aliyuncs.CommonRequest;
 import com.aliyuncs.CommonResponse;
 import com.aliyuncs.DefaultAcsClient;
 import com.aliyuncs.exceptions.ClientException;
-import com.aliyuncs.http.MethodType;
-import com.aliyuncs.iot.model.v20180120.DeleteDeviceRequest;
 import com.aliyuncs.profile.DefaultProfile;
 import com.aliyuncs.profile.IClientProfile;
+import com.baomidou.mybatisplus.core.toolkit.StringUtils;
+import com.bocang.task.util.Hex;
 import com.google.common.collect.Maps;
 import org.junit.Test;
-import org.springframework.web.util.WebUtils;
 
 import java.io.UnsupportedEncodingException;
 import java.util.HashMap;
@@ -226,8 +224,8 @@ public class MyTest {
 //        request.setCloudToken("asb");
 
 //        request.putParam("iotId", "4Tfpf9ct9Tq4RarWtfz9000100");
-        request.putParam("productKey", "a1wj0xvdMuX");
-        request.putParam("deviceName", "44EFBF2E2E88");
+        request.putParam("productKey", "a19Sm2EkuhH");
+        request.putParam("deviceName", "ThreeSwitch_09");
 
         ApiResponse response = syncClient.postBody("api.link.aliyun.com", "/cloud/thing/info/get", request, true);
 
@@ -378,8 +376,8 @@ public class MyTest {
         request.setSysDomain(domain);
         request.setSysVersion(version);
         request.setSysAction("QueryDeviceDetail");
-        request.putQueryParameter("ProductKey", "a1srueEQffB");
-        request.putQueryParameter("DeviceName", "1VSYjHNTgzfGW1nLBAkm");
+        request.putQueryParameter("ProductKey", "a1wj0xvdMuX");
+        request.putQueryParameter("DeviceName", "40AA560DA603");
         CommonResponse response = client.getCommonResponse(request);
         System.out.println(response.getData());
     }
@@ -394,10 +392,34 @@ public class MyTest {
         CommonRequest request = new CommonRequest();
         request.setSysDomain(domain);
         request.setSysVersion(version);
-        request.setSysAction("QueryProduct");
-        request.putQueryParameter("ProductKey", "a1wj0xvdMuX");
+        request.setSysAction("SetDeviceProperty");
+        request.putQueryParameter("ProductKey", "a19Sm2EkuhH");
+        request.putQueryParameter("DeviceName", "ThreeSwitch_09");
+        request.putQueryParameter("Items", "{\"PowerSwitch_1\":0,\"PowerSwitch_2\":0,\"PowerSwitch_3\":0}");
         CommonResponse response = client.getCommonResponse(request);
         System.out.println(response.getData());
+    }
+
+    @Test
+    public void test16() {
+        String str = "{\"deviceType\":\"ThreeButtonSwitch\",\"iotId\":\"eYGTZIeCixXSPFijMM8T000000\",\"requestId\":\"10905\",\"checkFailedData\":{\"MotionAlarmState_5\":{\"code\":5092,\"message\":\"property not found\",\"time\":1618026522431,\"value\":1}},\"productKey\":\"a1plgA2g9lt\",\"gmtCreate\":1618026522433,\"deviceName\":\"7C25DA9E7B86\",\"items\":{}}";
+
+        Map map = JSONObject.parseObject(str, Map.class);
+
+        System.out.println(map.get("items"));
+
+        System.out.println(String.valueOf(map.get("items")).equals("{}"));
+        if (String.valueOf(map.get("items")).equals("{}")) {
+            System.out.println(111);
+        } else {
+            System.out.println(222);
+        }
+
+    }
+
+    @Test
+    public void test17() {
+
     }
 
 

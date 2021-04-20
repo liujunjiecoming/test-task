@@ -50,7 +50,7 @@ public class ResourceRunner implements CommandLineRunner {
     public void run(String... args) throws Exception {
 //        Scheduler scheduler = schedulerFactoryBean.getScheduler();
 //        //scheduler.deleteJob(JobKey.jobKey("job1", "group1"));
-////        cronScheduler.scheduleJobs();
+        cronScheduler.scheduleJobs();
 ////        log.info("====== 系统错误代码加载完成 ======");
 //
 //        //参数说明，请参见AMQP客户端接入说明文档。

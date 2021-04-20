@@ -44,7 +44,7 @@ public class CronScheduler {
 
     public void scheduleJobs() throws SchedulerException {
         Scheduler scheduler = schedulerFactoryBean.getScheduler();
-//        devicesMonitorSchedule(scheduler);
-        refreshMonitorSchedule(scheduler);
+        devicesMonitorSchedule(scheduler);
+//        refreshMonitorSchedule(scheduler);
     }
 }
